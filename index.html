@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="content">
+            <div class="logo">
+                <img src="./images/header/TeckLink Logo.svg" alt="TeckLink">
+                <span>TeckLink</span>
+            </div>
+            <!--    <div id="menu-desktop" class="menu-desktop hide-on-desktop">
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-workshop.svg" alt="">
+                    <p>Workshop</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-teckmeet.svg" alt="">
+                    <p>TeckMeet</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-job.svg" alt="">
+                    <p>Jobs</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-teckconnect.svg" alt="">
+                    <p>TeckConnect</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-voicecast.svg" alt="">
+                    <p>VoiceCast</p>
+                </div>
+                <div class="sub-menu">
+                    <img src="./images/header/Logo-messenger.svg" alt="">
+                    <p>Messenger</p>
+                </div>
+            </div> -->
+            <div class="ham-menu">
+                <img id="menuIcon" onclick="myFunction(this)" src="./images/icon-menu.svg" alt="menuIcon">
+                <img id="icon-profile-desktop" class="" src="./images/main/icon-profile.png" alt="">
+            </div>
+        </div>
+
+        <div id="contentMenu" class="contentMenu hide-on-mobile">
+            <ul>
+                <li>
+                    <a href="#" class="">Workshop</a>
+                </li>
+                <li>
+                    <a href="#" class="">TeckMeet</a>
+                </li>
+                <li>
+                    <a href="#" class="">Jobs</a>
+                </li>
+                <li>
+                    <a href="#" class="">TeckConnect</a>
+                </li>
+                <li>
+                    <a href="#" class="">VoiceCast</a>
+                </li>
+                <li>
+                    <a href="#" class="">Messenger</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="messagebox">
+        <!-- <div class="scrollbar"></div> -->
+        <div class="New_chat">
+            <a href="#">
+                <img src="./image/Group 6102.png" alt="new chat">
+            </a>
+        </div>
+
+        <div class="profile_info">
+            <div class="message_detail">
+                <div class="message_display">
+                    <h3>Messages</h3>
+                </div>
+                <div class="message_info">
+                    <span class="new_message">
+                        3 new
+                    </span>
+                    <span class="unread_message">
+                        2 unread
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="searchbar">
+            <div class="magicon">
+                <img src="./image/Search.png" alt="">
+            </div>
+            <div class="searchbox">
+                <input type="textbox" id="searchbox" placeholder="Search Messages">
+            </div>
+            <div class="filtericon">
+                <a href="#">
+                    <img src="./image/Filter1.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="messagesbar">
+            <ul>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 2487b.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#"><b style="color: rgba(0, 0, 0, 0.6);">Bessie Cooper</b></a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Got it, Thank you! </h1>
+                            <div></div>
+                            <img src="./image/1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 2487b1.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#"><b style="color: rgba(0, 0, 0, 0.6);">Jane Mary</b></a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Great, will talk then! </h1>
+                            <div></div>
+                            <img src="./image/1.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 2487.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Annette Black</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24871.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="./message.html">Theresa Webb</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24872.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Bessie Cooper</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24873.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Jane Mary</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24874.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Annette Black</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24875.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Leslie Alexander</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24876.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Darrell Steward</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24878.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Albert Flores</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="friendsdetail">
+                        <div class="friendprofile">
+                            <img src="./image/Rectangle 24879.png" alt="">
+                        </div>
+                        <div class="friendname">
+                            <a href="#">Jacob Jones</a>
+                            <time class="lastchat">Nov 1</time>
+                        </div>
+                        <div class="message">
+                            <h1>Hey, I’m a recruiter and your portfolio looks really good.I have a offer for you. </h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="mview.js"></script>
+
+</body>
+
+</html>

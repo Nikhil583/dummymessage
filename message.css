@@ -1,0 +1,117 @@
+
+
+.chatsection {
+    margin-top: 30px;
+    width: 428px;
+    height: 1037px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 3rem;
+}
+
+.datetime {
+    margin-left: 40px;
+}
+
+.friendmessage {
+    margin-right: 50px;
+}
+
+.friendimg{
+    width: 34.85px;
+    height: 38px;
+}
+
+.yourmessages {
+    margin-right: -156px;
+    margin-top: -30px;
+}
+
+.friendmessage .displaymessages {
+    width: 335px;
+    display: flex;
+    height: 47px;
+    margin-left: 41px;
+    margin-top: -15px;
+    background: rgba(28, 28, 28, 0.05);
+    border-radius: 0px 16px 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yourmessages .displaymessages {
+    width: 239px;
+    height: 47px;
+    background: #1074EF;
+    border-radius: 0px 16px 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.istyping {
+    margin-left: -643px;
+}
+
+.name_time {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 90px;
+    align-items: baseline;
+}
+
+.yourmessages {
+    margin-right: -500px;
+}
+
+.chatbox {
+    width: 404px;
+    height: 90.66px;
+    margin-left: -9px;
+    border-style: groove;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-top: 140px;
+}
+
+.typemessage {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.typemessage input{
+    border-style: none;
+    width: 235px;
+    height: 30px;
+}
+
+.emoji {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5px;
+}
+
+.moreoption {
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 5px;
+}
+
+.Sendbutton {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Sendbutton button {
+    width: 71.48px;
+    height: 35px;
+    background: #0C63E7;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
